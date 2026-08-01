@@ -5,6 +5,9 @@ import java.util.HashMap;
 /*
 Problem: Find Highest and Lowest Frequency Element
 
+Pattern: Frequency Counting
+Data Structure: HashMap
+
 Approach:
 1. Traverse the array and count frequencies using a HashMap.
 2. Traverse the HashMap to identify the highest and lowest frequency elements.
