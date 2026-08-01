@@ -2,23 +2,31 @@ package Arrays;
 
 import java.util.HashMap;
 
+/*
+Problem: Find Highest and Lowest Frequency Element
+
+Approach:
+1. Traverse the array and count frequencies using a HashMap.
+2. Traverse the HashMap to identify the highest and lowest frequency elements.
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+*/
+
 public class FindHighestLowestFrequency {
-    static void highestLowest(int[] arr) { // SC = O(n);
-       // creating a hashmap to store the elements and their freqencies
-       // key -> array elements, value -> element frequencies
-       HashMap<Integer,Integer> map = new HashMap<>();
+    
+    static void highestLowest(int[] arr) {
+    
+        HashMap<Integer,Integer> map = new HashMap<>();
 
-       // creating entries of the map
-        for(int num : arr) { // TC = O(n); 
+        for(int num : arr) {
             map.put(num, map.getOrDefault(num, 0) + 1);
-
         }
 
         int leastFeqEle = -1, leastFreq = Integer.MAX_VALUE;
         int highestFreqEle = -1, highestFreq = Integer.MIN_VALUE;
 
-        // Finding highest and lowest freqency element
-        for(int key : map.keySet()){ // TC = O(n);
+        for(int key : map.keySet()){
             int currentKey = key;
             int currentFreq = map.get(key);
                 if(currentFreq > highestFreq) {
@@ -29,7 +37,6 @@ public class FindHighestLowestFrequency {
                     leastFreq = currentFreq;
                     leastFeqEle = currentKey;
                 }
-
         }
 
         System.out.println(leastFeqEle+" "+highestFreqEle);
