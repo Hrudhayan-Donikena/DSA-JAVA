@@ -1,7 +1,6 @@
 package Arrays;
 
 public class BeginnerLevel { 
-   
 
     // muyltiply each element of an array by 10 
     public int[] mulArr() {
@@ -39,7 +38,7 @@ public class BeginnerLevel {
     }
 
     // return sum of +ve nums and -ve nums in an array;
-    public int[] sumOfPNnums() { // TC = O(n); SC = O(n);
+    public int[] sumOfPNnums() { // TC = O(n);
         int[] arr = {-1,2,3,-4,-5,0};
         int Psum = 0;
         int Nsum = 0;
