@@ -1,7 +1,7 @@
 package Arrays;
 import java.util.*;
 
-public class modeArray {
+public class FindModeArray {
 
     static int highestFreqEle(int[] arr) {
         // creating a hashmap to store the array elements and their frequencies.

@@ -1,6 +1,6 @@
 package Arrays;
 
-public class arrayManipulation {
+public class ArrayManipulations {
      static int[] revArr() {
         int[] arr = {2,4,6,8,9};
         // int[] revArr = new int[arr.length];

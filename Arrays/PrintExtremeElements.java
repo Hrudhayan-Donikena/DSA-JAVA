@@ -1,6 +1,6 @@
 package Arrays;
 
-public class extremeElements {
+public class PrintExtremeElements {
     static void extremeEle() {
         int[] arr = {1,2,3,4,5};
         int n = arr.length;

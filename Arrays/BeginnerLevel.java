@@ -1,6 +1,6 @@
 package Arrays;
 
-public class BeginnerArray { 
+public class BeginnerLevel { 
    
 
     // muyltiply each element of an array by 10 

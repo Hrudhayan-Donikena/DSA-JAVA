@@ -1,6 +1,6 @@
 package Arrays;
 
-public class averageOfElements {
+public class FindAverageOfElements {
     static void avgOfArrElm(int[] nums) { // find avg of elements in an array
         double sum = 0;
         for(int i=0;i<nums.length;i++) {
