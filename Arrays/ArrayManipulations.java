@@ -25,7 +25,7 @@ public class ArrayManipulations {
         int i = arr.length-1;
         int temp = arr[arr.length-1];
 
-        while(i >= 0){ // TC = O(n); SC = O(1);
+        while(i > 0){ // TC = O(n); SC = O(1);
             arr[i] = arr[i-1];
             i--;
         }
