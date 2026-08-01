@@ -3,7 +3,7 @@ import java.util.*;
 
 public class FindModeArray {
 
-    static int highestFreqEle(int[] arr) {
+    static int highestFreqEle(int[] arr) { // SC = O(n);
         // creating a hashmap to store the array elements and their frequencies.
         HashMap<Integer,Integer> freq = new HashMap<>();
 
@@ -11,11 +11,11 @@ public class FindModeArray {
         int maxFreq = -1;
 
         // storing each element of the arr in the map
-        for(int num : arr) {
+        for(int num : arr) { // TC = O(n);
             freq.put(num, freq.getOrDefault(num, 0) + 1);
 
             // comparing frequencies of each key(element).
-            for(int key : freq.keySet()){
+            for(int key : freq.keySet()){ // TC = O(n);
                 int currentKey = key;
                 int currentFreq = freq.get(key);
                 if(currentFreq > maxFreq) {

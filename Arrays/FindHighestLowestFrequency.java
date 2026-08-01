@@ -3,7 +3,7 @@ package Arrays;
 import java.util.HashMap;
 
 public class FindHighestLowestFrequency {
-    static void highestLowest(int[] arr) { // SC = O(1);
+    static void highestLowest(int[] arr) { // SC = O(n);
        // creating a hashmap to store the elements and their freqencies
        // key -> array elements, value -> element frequencies
        HashMap<Integer,Integer> map = new HashMap<>();
