@@ -3,7 +3,7 @@ package Arrays;
 public class FindAverageOfElements {
     static void avgOfArrElm(int[] nums) { // find avg of elements in an array
         double sum = 0;
-        for(int i=0;i<nums.length;i++) {
+        for(int i=0;i<nums.length;i++) { // TC = O(n); SC = O(1);
             sum += nums[i];
         }
         double avg = (sum / nums.length);
