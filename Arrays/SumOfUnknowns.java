@@ -2,8 +2,8 @@ package Arrays;
 import java.util.*;
 
 /*
-problem: An array list consists of only String(numbers) and numbers,
-return the sum of the list elements.
+Problem: An array list contains only numeric-strings and integers,
+Return the sum of all elements.
 
 Approach
 1. Traverse elements in the list, find out to what class the elements belong.
