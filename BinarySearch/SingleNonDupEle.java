@@ -51,7 +51,7 @@ public class SingleNonDupEle {
     }
 
     public static void main(String[] args){
-        int[] arr = {10};
+        int[] arr = {10,10,20,30,30,40,40,50,50};
         System.out.println(findNonDuplicateEle(arr));
     }
 }
